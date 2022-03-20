@@ -2,6 +2,7 @@ body{
     font-family: sans-serif;
     padding-left: 100px;
     margin:0;
+    border: 0;
 }
 ul{
     display: flex;
@@ -29,6 +30,12 @@ li{
 
     
 }
+/* li.color-fondo:hover{
+    background-color:#3557D7;
+    color:white;
+    transition: all 500ms ease-in-out;
+
+} */
 
 a{
     text-decoration: none;
@@ -155,6 +162,14 @@ a{
     align-items: center;
     
 }
+.icono-3{
+    padding-top:5px;
+    width: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
 
 #agenda{
     display: flex;
@@ -254,6 +269,14 @@ a{
   
 
 }
+div.cajas-razones:hover{
+  
+    border: none;
+    box-shadow: 10px 10px 20px #EEF3FF;
+   
+   
+ 
+ }
 
 .text-color-azul{
     color: #3262DC;
@@ -369,6 +392,12 @@ border-radius: 10px;
     font-weight: bold;
     
     
+}
+input.contacto-boton:hover{
+    background-color:#3557D7;
+    color:white;
+    transition: all 500ms ease-in-out;
+
 }
 .contacto-caja-boton{
     width: 100%;
