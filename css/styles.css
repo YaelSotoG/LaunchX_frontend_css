@@ -1,6 +1,7 @@
 body{
     font-family: sans-serif;
     padding-left: 100px;
+    margin:0;
 }
 ul{
     display: flex;
@@ -129,7 +130,7 @@ a{
     background-color: #EAF0FE;
     border-radius: 10px;
     border: 1px solid white;
-    box-shadow: 5px 5px 20px #D8DEEB;
+    box-shadow: 5px 5px 20px #EEF3FF;
     
 }
 
@@ -176,7 +177,7 @@ a{
     border-radius: 10px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    box-shadow: 5px 5px 20px #D8DEEB;
+    box-shadow: 5px 5px 20px #EEF3FF;
 }
 .form-group{
     display: flex;
@@ -310,7 +311,7 @@ border-radius: 10px;
     height: 15px;
     align-items: center;
     
-    background-color: #D8DEEB;
+    background-color: #EEF3FF;
     border-radius: 10px;
     padding: 10px;
     margin: 20px;
@@ -332,7 +333,7 @@ border-radius: 10px;
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 20px;
     margin-top:90px;
-    margin-right: 50px;
+    margin-right: 100px;
 }
 .contacto-box{
     background-color:white;
@@ -356,8 +357,8 @@ border-radius: 10px;
 }
 .contacto-boton{
     color: #3262DC;
-    background-color:#D8DEEB;
-    font-size:20px;
+    background-color:#EEF3FF;
+    font-size:18px;
     box-sizing: border-box;
     width:80%;
     height: 50%;
@@ -379,4 +380,80 @@ border-radius: 10px;
 }
 #contacto-emergencia{
     margin-bottom:100px;
+}
+
+footer{
+    background-color: #EEF3FF;
+    width: calc(100% + 100px);
+    height: 300px;
+    margin: 0 ;
+    border: none;
+    padding: 0;
+    transform: translateX(-100px);
+   
+
+}
+#footer-grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+}
+
+.footer-caja{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+.footer-lista{
+    padding-left:0px;
+}
+.footer-descripcion{
+    font-weight:bold;
+    line-height: 1.5;
+}
+#logo-footer{
+    font-size:30px;
+    margin-bottom:0px;
+    margin-top:7px;
+}
+#about{
+    grid-column:4/5;
+}
+
+.lista-titulo{
+    color: #193C73;
+}
+.lista-links{
+    display: flex;
+    flex-direction: column;
+    padding-left:0;
+}
+.lista-texto{
+    padding-top:15px;
+}
+ul.lista{
+    padding-left:0;
+}
+.derechos{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-left:100px;
+    padding-right:100px;
+}
+
+#terms{
+    width:70%;
+}
+#privacy{
+    padding-left:20px
 }
