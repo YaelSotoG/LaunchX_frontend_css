@@ -149,8 +149,8 @@ a{
 
 }
 .icono{
-    padding-top: 5px;
-    width: 20px;
+    
+    width: 30px;
     text-align: center;
     align-items: center;
     
@@ -345,8 +345,8 @@ border-radius: 10px;
     border: rgba(133, 151, 179,0.1) 2px solid;
 }
 .contacto-icon{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     
 }
 .direction{
