@@ -4,6 +4,10 @@ body{
     margin:0;
     border: 0;
 }
+nav{
+    background:linear-gradient(to right, white 0%, white 50%, #EEF6FD 50%, #EEF6FD 100%);
+    padding-right: 60px;
+}
 ul{
     display: flex;
     flex-direction: row;
@@ -21,7 +25,7 @@ li{
     padding-top: 3% ;
     padding-bottom: 3%;
 
-    font-size: 20px;
+    font-size: 18px;
     color: grey;
     text-decoration: none;
     list-style: none;
@@ -30,12 +34,22 @@ li{
 
     
 }
-/* li.color-fondo:hover{
+.caja-hover{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+ div.caja-hover:hover{
     background-color:#3557D7;
     color:white;
     transition: all 500ms ease-in-out;
+    border-radius: 5px;
 
-} */
+}
+
 
 a{
     text-decoration: none;
@@ -51,9 +65,7 @@ a{
      flex: 1 30%;
     /* padding-top: 10%; */ 
 }
-.color-fondo{
-    background-color:#EEF6FD;
-}
+
 #boton{
     background-color: #2549C9;
     border-radius: 10px;
@@ -418,7 +430,7 @@ input.contacto-boton:hover{
 footer{
     background-color: #EEF3FF;
     width: calc(100% + 100px);
-    height: 300px;
+    height: auto;
     margin: 0 ;
     border: none;
     padding: 0;
